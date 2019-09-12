@@ -17,7 +17,6 @@ class CashRegister
 
       if @discount > 0
         apply_discount
-        binding.pry
       end
       @total
   end
